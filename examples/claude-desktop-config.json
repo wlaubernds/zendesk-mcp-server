@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "zendesk": {
+      "command": "npx",
+      "args": ["-y", "zendesk-mcp-server"],
+      "env": {
+        "ZENDESK_SUBDOMAIN": "your-company",
+        "ZENDESK_EMAIL": "your-email@company.com",
+        "ZENDESK_API_TOKEN": "your-api-token-here"
+      }
+    }
+  }
+}
+
